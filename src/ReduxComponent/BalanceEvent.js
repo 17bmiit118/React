@@ -7,7 +7,7 @@ const BalanceEvent = () => {
     const dispatch = useDispatch();
    // const actions = bindActionCreators(actionCreators,dispatch);
       const {depositeMoney,withdrawMoney} = bindActionCreators(actionCreators,dispatch);
-
+   
     return (
         <>
         {/* <button onClick={()=>{dispatch(actionCreators.depositeMoney(100))}}>Add</button>
